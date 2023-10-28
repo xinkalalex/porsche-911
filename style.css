@@ -1,0 +1,232 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body{
+    background: rgb(0,255,226);
+background: linear-gradient(90deg, rgba(0,255,226,1) 0%, rgba(7,7,99,1) 61%, rgba(59,0,255,1) 100%);
+}
+
+.wrapper{
+    background: rgb(63,240,251);
+background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgba(134,70,252,0.8295693277310925) 72%);
+    width: 1100px;
+    height: 900px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;
+    color: blueviolet;
+    padding: 20px;
+}
+
+input::placeholder{
+    text-align: center;
+    color: chocolate;
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 48px;
+    top: 5px;
+    right: 43%;
+}
+
+#left_2{
+    width: 100px;
+    top: 35px;
+    right: 63%;
+}
+
+#left_3{
+    width: 100px;
+    top: 90px;
+    right: 73%;
+}
+
+#left_4{
+    width: 150px;
+    top: 240px;
+    right: 85%;
+}
+#left_5{
+    width: 150px;
+    top: 330px;
+    right: 80%;
+}
+#left_6{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_1{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_2{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_3{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_4{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+#right_5{
+    width: 150px;
+    top: 415px;
+    right: 65%;
+}
+ */
+
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+/* body{
+    background: rgb(0, 247, 255);\
+} */
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/292/59/818/car-porsche-dark-vehicle-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    background-color: rgb(rgb(9, 22, 255));
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0);
+    color: rgb(113, 122, 133);
+    padding: 20px;
+}
+
+input::placeholder{
+    text-align: center;
+    color: rgb(85, 197, 224);
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 48px;
+    top: 5px;
+    right: 40%;
+}
+
+#left_2{
+    width: 150px;
+    top: 60px;
+    right: 65%;
+}
+#left_3{
+    width: 150px;
+    top: 140px;
+    right: 75%;
+}
+#left_4{
+    width: 150px;
+    top: 240px;
+    right: 83%;
+}
+#left_5{
+    width: 150px;
+    top: 330px;
+    right: 80%;
+}
+#left_6{
+    width: 150px;
+    top: 415px;
+    right: 74%;
+}
+
+#right_2{
+    width: 150px;
+    top: 60px;
+    left: 65%;
+}
+#right_3{
+    width: 150px;
+    top: 140px;
+    left: 75%;
+}
+#right_4{
+    width: 150px;
+    top: 240px;
+    left: 83%;
+}
+#right_5{
+    width: 150px;
+    top: 330px;
+    left: 80%;
+}
+#right_6{
+    width: 150px;
+    top: 415px;
+    left: 70%;
+}
+
+
+button{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 400px;
+    right: 36%;
+    text-align: center;
+    color: rgb(70, 190, 220);
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+#answer{
+    font-size: 35px;
+    position: absolute;
+    top: 250px;
+    right: 48%;
+    color: rgb(85, 197, 224);
+}
+
+#quality{
+    font-size: 40px;
+    position: absolute;
+    top: 210px;
+    right: 41%;
+    color: rgb(85, 197, 224);
+}
+
