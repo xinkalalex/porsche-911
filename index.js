@@ -107,7 +107,8 @@ function start(){
             getElementById('answer').style.backgroundColor = 'red'
             getElementById('quality').style.backgroundColor = 'green'
         }
-
+        getElementById('answer').innerHTML = result;
+        getElementById('quality').innerHTML = quality;
 
     }
 }
